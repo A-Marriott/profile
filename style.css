@@ -1,0 +1,104 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #1C7293;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button a {
+  color: white;
+}
+
+.button a:hover {
+  color: rgb(230,230,230);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 10000px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+    border: solid;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: #1C7293;
+    background-color: rgb(240,246,250);
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin-bottom: 10px;
+}
+
+.links-card {
+  padding: 10px 30px;
+}
+
+.list-inline ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+body {
+  background-color: #E9F1F7;
+  font-family: 'Open Sans', sans-serif;
+  color: #21295C;
+  line-height: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #21295C;
+}
+
+a {
+  color: #C94277;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(250,120,170);
+}
